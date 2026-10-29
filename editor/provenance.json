@@ -1,0 +1,13 @@
+{
+  "source": "cutoff-game-legacy/src/main/resources/static",
+  "verbatim_files": {
+    "editor.js": "6c6d346e3c7bf55a6d9e298a99465444ce6f01a120fcdbb5d8dc0b6fd4ebf3f0",
+    "styles.css": "8c02dc398101be873155a95e9654a7b8ae56019ed86bb3bb164e7ca41fedb77c"
+  },
+  "html_editor_sections_verbatim": true,
+  "template": {
+    "source": "cutoff-game-legacy/maps/default.map",
+    "sha256": "4a947d776d14eeb74cd59c5b5a484f1f285c1610b1b961eda205a8fb064bae09",
+    "production": false
+  }
+}

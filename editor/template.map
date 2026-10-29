@@ -1,0 +1,160 @@
+{
+  "formatVersion": 1,
+  "id": "default",
+  "name": "Комплекс «Отсечка»",
+  "worldWidth": 6500,
+  "worldHeight": 540,
+  "playerSpawns": [
+    { "x": 92, "y": 220 },
+    { "x": 140, "y": 220 },
+    { "x": 92, "y": 298 },
+    { "x": 140, "y": 298 }
+  ],
+  "labels": [
+    { "text": "СТАРТОВАЯ КАМЕРА", "x": 32, "y": 103 },
+    { "text": "БОЕВОЙ ОТСЕК", "x": 306, "y": 103 },
+    { "text": "ПАРНЫЙ ШЛЮЗ", "x": 780, "y": 103 },
+    { "text": "ТЕХНИЧЕСКИЙ ЛАБИРИНТ", "x": 1030, "y": 103 },
+    { "text": "АРХИВ ДАННЫХ", "x": 1510, "y": 103 },
+    { "text": "ОТСЕЧКА 01", "x": 1990, "y": 103 },
+    { "text": "РЕЛЕЙНЫЙ КОРИДОР", "x": 2320, "y": 103 },
+    { "text": "АВАРИЙНЫЙ МОСТ", "x": 3025, "y": 103 },
+    { "text": "ХРАНИЛИЩЕ 02", "x": 3500, "y": 103 },
+    { "text": "ОТСЕЧКА 02", "x": 3945, "y": 103 },
+    { "text": "ПОГРУЗОЧНЫЙ СЕКТОР", "x": 4300, "y": 103 },
+    { "text": "РАЗДЕЛЯЮЩИЙ ШЛЮЗ", "x": 4540, "y": 103 },
+    { "text": "ДВОЙНОЙ РЕЛЕЙ", "x": 5120, "y": 103 },
+    { "text": "АРХИВ 03", "x": 5490, "y": 103 },
+    { "text": "ОТСЕЧКА 03", "x": 6020, "y": 103 }
+  ],
+  "entrance": {
+    "gate": { "x": 250, "y": 70, "width": 24, "height": 400 },
+    "console": { "x": 178, "y": 270 }
+  },
+  "cooperation": {
+    "gate": { "x": 930, "y": 70, "width": 24, "height": 400 },
+    "plates": [
+      { "x": 875, "y": 184 },
+      { "x": 875, "y": 356 }
+    ]
+  },
+  "trustPocket": {
+    "plate": { "x": 1562, "y": 226 },
+    "gate": { "x": 1700, "y": 310, "width": 150, "height": 24 },
+    "pocket": { "x": 1700, "y": 334, "width": 110, "height": 136 }
+  },
+  "serviceBridge": {
+    "plate": { "x": 2955, "y": 270 },
+    "hazard": { "x": 3050, "y": 70, "width": 260, "height": 400 },
+    "overrideConsole": { "x": 3390, "y": 270 }
+  },
+  "separationGate": {
+    "gate": { "x": 4680, "y": 70, "width": 28, "height": 400 },
+    "controls": [
+      { "x": 4590, "y": 270 },
+      { "x": 4798, "y": 270 }
+    ]
+  },
+  "finalRelay": {
+    "gate": { "x": 5420, "y": 70, "width": 28, "height": 400 },
+    "nodes": [
+      { "x": 5310, "y": 150 },
+      { "x": 5310, "y": 390 }
+    ]
+  },
+  "checkpoints": [
+    {
+      "platforms": [
+        { "x": 2055, "y": 184 }, { "x": 2140, "y": 184 },
+        { "x": 2055, "y": 356 }, { "x": 2140, "y": 356 }
+      ],
+      "exitGate": { "x": 2250, "y": 70, "width": 28, "height": 400 }
+    },
+    {
+      "platforms": [
+        { "x": 4015, "y": 184 }, { "x": 4100, "y": 184 },
+        { "x": 4015, "y": 356 }, { "x": 4100, "y": 356 }
+      ],
+      "exitGate": { "x": 4250, "y": 70, "width": 28, "height": 400 }
+    },
+    {
+      "platforms": [
+        { "x": 6090, "y": 184 }, { "x": 6175, "y": 184 },
+        { "x": 6090, "y": 356 }, { "x": 6175, "y": 356 }
+      ],
+      "exitGate": { "x": 6320, "y": 70, "width": 28, "height": 400 }
+    }
+  ],
+  "obstacles": [
+    { "x": 410, "y": 118, "width": 95, "height": 66 },
+    { "x": 568, "y": 326, "width": 132, "height": 74 },
+    { "x": 760, "y": 150, "width": 72, "height": 142 },
+    { "x": 1070, "y": 70, "width": 60, "height": 242 },
+    { "x": 1230, "y": 260, "width": 60, "height": 210 },
+    { "x": 1430, "y": 70, "width": 60, "height": 250 },
+    { "x": 1620, "y": 300, "width": 80, "height": 170 },
+    { "x": 1810, "y": 70, "width": 48, "height": 128 },
+    { "x": 1810, "y": 342, "width": 48, "height": 128 },
+    { "x": 1940, "y": 70, "width": 34, "height": 102 },
+    { "x": 1940, "y": 368, "width": 34, "height": 102 },
+    { "x": 2350, "y": 70, "width": 70, "height": 180 },
+    { "x": 2470, "y": 310, "width": 90, "height": 160 },
+    { "x": 2630, "y": 70, "width": 85, "height": 180 },
+    { "x": 2780, "y": 310, "width": 90, "height": 160 },
+    { "x": 3540, "y": 70, "width": 72, "height": 175 },
+    { "x": 3660, "y": 300, "width": 95, "height": 170 },
+    { "x": 3820, "y": 70, "width": 54, "height": 190 },
+    { "x": 4820, "y": 70, "width": 80, "height": 165 },
+    { "x": 4960, "y": 305, "width": 80, "height": 165 },
+    { "x": 5180, "y": 220, "width": 160, "height": 100 },
+    { "x": 5580, "y": 70, "width": 65, "height": 180 },
+    { "x": 5710, "y": 300, "width": 90, "height": 170 },
+    { "x": 5910, "y": 70, "width": 55, "height": 210 }
+  ],
+  "weaponPickups": [
+    { "id": "firearm-1", "x": 348, "y": 264, "ammo": 5 },
+    { "id": "firearm-2", "x": 530, "y": 246, "ammo": 5 }
+  ],
+  "lootCrates": [
+    { "x": 350, "y": 385 }, { "x": 535, "y": 125 },
+    { "x": 1015, "y": 405 }, { "x": 1370, "y": 400 },
+    { "x": 1885, "y": 270 }, { "x": 2375, "y": 390 },
+    { "x": 2700, "y": 390 }, { "x": 3420, "y": 150 },
+    { "x": 3550, "y": 275 }, { "x": 3785, "y": 280 },
+    { "x": 4550, "y": 390 }, { "x": 4850, "y": 390 },
+    { "x": 5120, "y": 150 }, { "x": 5540, "y": 390 },
+    { "x": 5840, "y": 260 }, { "x": 6000, "y": 420 }
+  ],
+  "intelTerminals": [
+    { "id": "intel-1", "x": 1335, "y": 132, "checkpoint": 1 },
+    { "id": "intel-2", "x": 1728, "y": 395, "checkpoint": 1 },
+    { "id": "intel-3", "x": 3470, "y": 150, "checkpoint": 2 },
+    { "id": "intel-4", "x": 3790, "y": 400, "checkpoint": 2 },
+    { "id": "intel-5", "x": 5545, "y": 150, "checkpoint": 3 },
+    { "id": "intel-6", "x": 5850, "y": 400, "checkpoint": 3 }
+  ],
+  "mobs": [
+    { "id": "crawler-1", "x": 650, "y": 214, "type": "MELEE", "level": 1 },
+    { "id": "crawler-2", "x": 805, "y": 388, "type": "MELEE", "level": 2 },
+    { "id": "crawler-3", "x": 1175, "y": 390, "type": "MELEE", "level": 1 },
+    { "id": "crawler-4", "x": 1365, "y": 178, "type": "MELEE", "level": 2 },
+    { "id": "crawler-5", "x": 1745, "y": 232, "type": "MELEE", "level": 1 },
+    { "id": "crawler-6", "x": 2435, "y": 380, "type": "MELEE", "level": 2 },
+    { "id": "crawler-7", "x": 3510, "y": 375, "type": "MELEE", "level": 1 },
+    { "id": "crawler-8", "x": 3715, "y": 180, "type": "MELEE", "level": 2 },
+    { "id": "crawler-9", "x": 3860, "y": 370, "type": "MELEE", "level": 2 },
+    { "id": "crawler-10", "x": 4900, "y": 270, "type": "MELEE", "level": 1 },
+    { "id": "crawler-11", "x": 5115, "y": 390, "type": "MELEE", "level": 2 },
+    { "id": "crawler-12", "x": 5500, "y": 330, "type": "MELEE", "level": 1 },
+    { "id": "crawler-13", "x": 5815, "y": 170, "type": "MELEE", "level": 2 },
+    { "id": "crawler-14", "x": 5980, "y": 270, "type": "MELEE", "level": 1 },
+    { "id": "crawler-15", "x": 2580, "y": 390, "type": "MELEE", "level": 2 },
+    { "id": "crawler-16", "x": 4460, "y": 170, "type": "MELEE", "level": 1 },
+    { "id": "crawler-17", "x": 5890, "y": 390, "type": "MELEE", "level": 2 },
+    { "id": "gunner-1", "x": 990, "y": 180, "type": "RANGED", "level": 1 },
+    { "id": "gunner-2", "x": 1530, "y": 390, "type": "ASSAULT", "level": 2 },
+    { "id": "gunner-3", "x": 2820, "y": 170, "type": "RANGED", "level": 2 },
+    { "id": "gunner-4", "x": 3630, "y": 390, "type": "ASSAULT", "level": 1 },
+    { "id": "gunner-5", "x": 5660, "y": 270, "type": "ASSAULT", "level": 2 }
+  ]
+}

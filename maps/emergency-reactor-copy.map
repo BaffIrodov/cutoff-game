@@ -1,0 +1,2760 @@
+{
+  "formatVersion" : 4,
+  "id" : "emergency-reactor-copy",
+  "name" : "Аварийный реактор — копия",
+  "worldWidth" : 11000,
+  "worldHeight" : 900,
+  "playerSpawns" : [ {
+    "x" : 120.0,
+    "y" : 400.0
+  }, {
+    "x" : 190.0,
+    "y" : 400.0
+  }, {
+    "x" : 120.0,
+    "y" : 490.0
+  }, {
+    "x" : 190.0,
+    "y" : 490.0
+  } ],
+  "labels" : [ {
+    "text" : "ПРИЁМНЫЙ СКЛАД",
+    "x" : 70.0,
+    "y" : 110.0
+  }, {
+    "text" : "СКЛАД КОНТЕЙНЕРОВ",
+    "x" : 540.0,
+    "y" : 90.0
+  }, {
+    "text" : "ПАРНЫЙ ШЛЮЗ",
+    "x" : 1510.0,
+    "y" : 110.0
+  }, {
+    "text" : "ОБХОД ОРУЖЕЙНОЙ",
+    "x" : 1620.0,
+    "y" : 420.0
+  }, {
+    "text" : "ПОГРУЗОЧНЫЙ ЗАЛ",
+    "x" : 2510.0,
+    "y" : 110.0
+  }, {
+    "text" : "СИСТЕМА ОХЛАЖДЕНИЯ",
+    "x" : 3220.0,
+    "y" : 100.0
+  }, {
+    "text" : "УДЕРЖИВАЙТЕ ПЛАТФОРМУ",
+    "x" : 4570.0,
+    "y" : 590.0
+  }, {
+    "text" : "СЕРВЕРНАЯ",
+    "x" : 5910.0,
+    "y" : 330.0
+  }, {
+    "text" : "ТЕХНИЧЕСКАЯ ГАЛЕРЕЯ",
+    "x" : 6930.0,
+    "y" : 90.0
+  }, {
+    "text" : "АВАРИЙНЫЙ МОСТ",
+    "x" : 7760.0,
+    "y" : 390.0
+  }, {
+    "text" : "ТОПЛИВНЫЙ ЗАЛ",
+    "x" : 8730.0,
+    "y" : 120.0
+  }, {
+    "text" : "РЕАКТОРНЫЙ КОМПЛЕКС",
+    "x" : 9230.0,
+    "y" : 90.0
+  }, {
+    "text" : "ОТСЕЧКА 01",
+    "x" : 2970.0,
+    "y" : 310.0
+  }, {
+    "text" : "ОТСЕЧКА 02",
+    "x" : 6730.0,
+    "y" : 310.0
+  }, {
+    "text" : "ОТСЕЧКА 03",
+    "x" : 10700.0,
+    "y" : 310.0
+  }, {
+    "text" : "ПЕРЕРАБОТКА ОТХОДОВ",
+    "x" : 4500.0,
+    "y" : 330.0
+  } ],
+  "obstacles" : [ {
+    "x" : 890.0,
+    "y" : 110.0,
+    "width" : 180.0,
+    "height" : 130.0
+  }, {
+    "x" : 1160.0,
+    "y" : 560.0,
+    "width" : 30.0,
+    "height" : 270.0
+  }, {
+    "x" : 1450.0,
+    "y" : 70.0,
+    "width" : 32.0,
+    "height" : 270.0
+  }, {
+    "x" : 1450.0,
+    "y" : 560.0,
+    "width" : 32.0,
+    "height" : 270.0
+  }, {
+    "x" : 1570.0,
+    "y" : 320.0,
+    "width" : 610.0,
+    "height" : 32.0
+  }, {
+    "x" : 1830.0,
+    "y" : 570.0,
+    "width" : 120.0,
+    "height" : 210.0
+  }, {
+    "x" : 2180.0,
+    "y" : 70.0,
+    "width" : 30.0,
+    "height" : 280.0
+  }, {
+    "x" : 2420.0,
+    "y" : 550.0,
+    "width" : 30.0,
+    "height" : 280.0
+  }, {
+    "x" : 2500.0,
+    "y" : 140.0,
+    "width" : 160.0,
+    "height" : 130.0
+  }, {
+    "x" : 2480.0,
+    "y" : 600.0,
+    "width" : 110.0,
+    "height" : 210.0
+  }, {
+    "x" : 2420.0,
+    "y" : 70.0,
+    "width" : 30.0,
+    "height" : 310.0
+  }, {
+    "x" : 2920.0,
+    "y" : 580.0,
+    "width" : 32.0,
+    "height" : 250.0
+  }, {
+    "x" : 3610.0,
+    "y" : 70.0,
+    "width" : 230.0,
+    "height" : 220.0
+  }, {
+    "x" : 4200.0,
+    "y" : 70.0,
+    "width" : 80.0,
+    "height" : 440.0
+  }, {
+    "x" : 3560.0,
+    "y" : 590.0,
+    "width" : 32.0,
+    "height" : 240.0
+  }, {
+    "x" : 4660.0,
+    "y" : 600.0,
+    "width" : 32.0,
+    "height" : 230.0
+  }, {
+    "x" : 5020.0,
+    "y" : 600.0,
+    "width" : 32.0,
+    "height" : 230.0
+  }, {
+    "x" : 4692.0,
+    "y" : 600.0,
+    "width" : 60.0,
+    "height" : 28.0
+  }, {
+    "x" : 4900.0,
+    "y" : 600.0,
+    "width" : 120.0,
+    "height" : 28.0
+  }, {
+    "x" : 5200.0,
+    "y" : 70.0,
+    "width" : 30.0,
+    "height" : 550.0
+  }, {
+    "x" : 5230.0,
+    "y" : 70.0,
+    "width" : 630.0,
+    "height" : 250.0
+  }, {
+    "x" : 5330.0,
+    "y" : 720.0,
+    "width" : 60.0,
+    "height" : 110.0
+  }, {
+    "x" : 5860.0,
+    "y" : 70.0,
+    "width" : 32.0,
+    "height" : 290.0
+  }, {
+    "x" : 5860.0,
+    "y" : 580.0,
+    "width" : 32.0,
+    "height" : 250.0
+  }, {
+    "x" : 7190.0,
+    "y" : 70.0,
+    "width" : 30.0,
+    "height" : 160.0
+  }, {
+    "x" : 7370.0,
+    "y" : 660.0,
+    "width" : 190.0,
+    "height" : 170.0
+  }, {
+    "x" : 7730.0,
+    "y" : 70.0,
+    "width" : 180.0,
+    "height" : 220.0
+  }, {
+    "x" : 7730.0,
+    "y" : 620.0,
+    "width" : 180.0,
+    "height" : 210.0
+  }, {
+    "x" : 8900.0,
+    "y" : 390.0,
+    "width" : 120.0,
+    "height" : 130.0
+  }, {
+    "x" : 8760.0,
+    "y" : 390.0,
+    "width" : 120.0,
+    "height" : 130.0
+  }, {
+    "x" : 8760.0,
+    "y" : 90.0,
+    "width" : 120.0,
+    "height" : 130.0
+  }, {
+    "x" : 9140.0,
+    "y" : 190.0,
+    "width" : 20.0,
+    "height" : 640.0
+  }, {
+    "x" : 780.0,
+    "y" : 650.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 1110.0,
+    "y" : 110.0,
+    "width" : 130.0,
+    "height" : 130.0
+  }, {
+    "x" : 600.0,
+    "y" : 480.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 1280.0,
+    "y" : 110.0,
+    "width" : 130.0,
+    "height" : 130.0
+  }, {
+    "x" : 570.0,
+    "y" : 110.0,
+    "width" : 270.0,
+    "height" : 130.0
+  }, {
+    "x" : 980.0,
+    "y" : 580.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 880.0,
+    "y" : 320.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 1210.0,
+    "y" : 330.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 1310.0,
+    "y" : 570.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 2030.0,
+    "y" : 160.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 1870.0,
+    "y" : 160.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 1530.0,
+    "y" : 570.0,
+    "width" : 120.0,
+    "height" : 210.0
+  }, {
+    "x" : 1680.0,
+    "y" : 570.0,
+    "width" : 120.0,
+    "height" : 210.0
+  }, {
+    "x" : 1980.0,
+    "y" : 570.0,
+    "width" : 120.0,
+    "height" : 210.0
+  }, {
+    "x" : 2280.0,
+    "y" : 80.0,
+    "width" : 120.0,
+    "height" : 90.0
+  }, {
+    "x" : 2280.0,
+    "y" : 180.0,
+    "width" : 120.0,
+    "height" : 90.0
+  }, {
+    "x" : 2420.0,
+    "y" : 380.0,
+    "width" : 170.0,
+    "height" : 30.0
+  }, {
+    "x" : 1530.0,
+    "y" : 780.0,
+    "width" : 40.0,
+    "height" : 50.0
+  }, {
+    "x" : 2420.0,
+    "y" : 520.0,
+    "width" : 170.0,
+    "height" : 30.0
+  }, {
+    "x" : 2620.0,
+    "y" : 600.0,
+    "width" : 120.0,
+    "height" : 210.0
+  }, {
+    "x" : 2730.0,
+    "y" : 140.0,
+    "width" : 150.0,
+    "height" : 130.0
+  }, {
+    "x" : 2500.0,
+    "y" : 300.0,
+    "width" : 50.0,
+    "height" : 50.0
+  }, {
+    "x" : 2930.0,
+    "y" : 150.0,
+    "width" : 50.0,
+    "height" : 50.0
+  }, {
+    "x" : 3890.0,
+    "y" : 290.0,
+    "width" : 230.0,
+    "height" : 220.0
+  }, {
+    "x" : 3460.0,
+    "y" : 70.0,
+    "width" : 20.0,
+    "height" : 80.0
+  }, {
+    "x" : 3460.0,
+    "y" : 150.0,
+    "width" : 150.0,
+    "height" : 20.0
+  }, {
+    "x" : 3420.0,
+    "y" : 70.0,
+    "width" : 20.0,
+    "height" : 120.0
+  }, {
+    "x" : 3420.0,
+    "y" : 190.0,
+    "width" : 190.0,
+    "height" : 20.0
+  }, {
+    "x" : 3380.0,
+    "y" : 230.0,
+    "width" : 230.0,
+    "height" : 20.0
+  }, {
+    "x" : 3380.0,
+    "y" : 70.0,
+    "width" : 20.0,
+    "height" : 160.0
+  }, {
+    "x" : 3840.0,
+    "y" : 150.0,
+    "width" : 190.0,
+    "height" : 20.0
+  }, {
+    "x" : 3840.0,
+    "y" : 190.0,
+    "width" : 150.0,
+    "height" : 20.0
+  }, {
+    "x" : 3840.0,
+    "y" : 230.0,
+    "width" : 110.0,
+    "height" : 20.0
+  }, {
+    "x" : 3950.0,
+    "y" : 230.0,
+    "width" : 20.0,
+    "height" : 60.0
+  }, {
+    "x" : 3990.0,
+    "y" : 190.0,
+    "width" : 20.0,
+    "height" : 100.0
+  }, {
+    "x" : 4030.0,
+    "y" : 150.0,
+    "width" : 20.0,
+    "height" : 140.0
+  }, {
+    "x" : 4120.0,
+    "y" : 370.0,
+    "width" : 80.0,
+    "height" : 30.0
+  }, {
+    "x" : 4120.0,
+    "y" : 410.0,
+    "width" : 80.0,
+    "height" : 30.0
+  }, {
+    "x" : 4120.0,
+    "y" : 450.0,
+    "width" : 80.0,
+    "height" : 30.0
+  }, {
+    "x" : 3740.0,
+    "y" : 590.0,
+    "width" : 30.0,
+    "height" : 240.0
+  }, {
+    "x" : 3390.0,
+    "y" : 590.0,
+    "width" : 30.0,
+    "height" : 240.0
+  }, {
+    "x" : 3470.0,
+    "y" : 790.0,
+    "width" : 40.0,
+    "height" : 40.0
+  }, {
+    "x" : 3420.0,
+    "y" : 670.0,
+    "width" : 40.0,
+    "height" : 40.0
+  }, {
+    "x" : 3680.0,
+    "y" : 680.0,
+    "width" : 40.0,
+    "height" : 40.0
+  }, {
+    "x" : 3610.0,
+    "y" : 750.0,
+    "width" : 40.0,
+    "height" : 40.0
+  }, {
+    "x" : 4310.0,
+    "y" : 760.0,
+    "width" : 50.0,
+    "height" : 40.0
+  }, {
+    "x" : 4310.0,
+    "y" : 670.0,
+    "width" : 50.0,
+    "height" : 50.0
+  }, {
+    "x" : 4380.0,
+    "y" : 720.0,
+    "width" : 60.0,
+    "height" : 50.0
+  }, {
+    "x" : 4570.0,
+    "y" : 690.0,
+    "width" : 50.0,
+    "height" : 50.0
+  }, {
+    "x" : 4490.0,
+    "y" : 660.0,
+    "width" : 170.0,
+    "height" : 10.0
+  }, {
+    "x" : 4490.0,
+    "y" : 770.0,
+    "width" : 170.0,
+    "height" : 10.0
+  }, {
+    "x" : 4480.0,
+    "y" : 690.0,
+    "width" : 60.0,
+    "height" : 60.0
+  }, {
+    "x" : 4420.0,
+    "y" : 670.0,
+    "width" : 20.0,
+    "height" : 20.0
+  }, {
+    "x" : 4250.0,
+    "y" : 710.0,
+    "width" : 30.0,
+    "height" : 50.0
+  }, {
+    "x" : 4140.0,
+    "y" : 680.0,
+    "width" : 70.0,
+    "height" : 60.0
+  }, {
+    "x" : 4180.0,
+    "y" : 760.0,
+    "width" : 50.0,
+    "height" : 50.0
+  }, {
+    "x" : 4360.0,
+    "y" : 70.0,
+    "width" : 110.0,
+    "height" : 450.0
+  }, {
+    "x" : 4280.0,
+    "y" : 450.0,
+    "width" : 80.0,
+    "height" : 30.0
+  }, {
+    "x" : 4280.0,
+    "y" : 410.0,
+    "width" : 80.0,
+    "height" : 30.0
+  }, {
+    "x" : 4280.0,
+    "y" : 370.0,
+    "width" : 80.0,
+    "height" : 30.0
+  }, {
+    "x" : 5020.0,
+    "y" : 320.0,
+    "width" : 30.0,
+    "height" : 280.0
+  }, {
+    "x" : 4840.0,
+    "y" : 70.0,
+    "width" : 30.0,
+    "height" : 210.0
+  }, {
+    "x" : 4570.0,
+    "y" : 250.0,
+    "width" : 100.0,
+    "height" : 30.0
+  }, {
+    "x" : 4540.0,
+    "y" : 70.0,
+    "width" : 30.0,
+    "height" : 210.0
+  }, {
+    "x" : 4870.0,
+    "y" : 100.0,
+    "width" : 180.0,
+    "height" : 10.0
+  }, {
+    "x" : 4870.0,
+    "y" : 210.0,
+    "width" : 180.0,
+    "height" : 10.0
+  }, {
+    "x" : 4900.0,
+    "y" : 140.0,
+    "width" : 70.0,
+    "height" : 50.0
+  }, {
+    "x" : 5000.0,
+    "y" : 130.0,
+    "width" : 60.0,
+    "height" : 60.0
+  }, {
+    "x" : 5090.0,
+    "y" : 150.0,
+    "width" : 50.0,
+    "height" : 40.0
+  }, {
+    "x" : 5130.0,
+    "y" : 210.0,
+    "width" : 40.0,
+    "height" : 40.0
+  }, {
+    "x" : 5130.0,
+    "y" : 110.0,
+    "width" : 30.0,
+    "height" : 30.0
+  }, {
+    "x" : 5420.0,
+    "y" : 720.0,
+    "width" : 60.0,
+    "height" : 110.0
+  }, {
+    "x" : 5510.0,
+    "y" : 720.0,
+    "width" : 60.0,
+    "height" : 110.0
+  }, {
+    "x" : 5600.0,
+    "y" : 720.0,
+    "width" : 60.0,
+    "height" : 110.0
+  }, {
+    "x" : 5690.0,
+    "y" : 720.0,
+    "width" : 60.0,
+    "height" : 110.0
+  }, {
+    "x" : 3650.0,
+    "y" : 290.0,
+    "width" : 40.0,
+    "height" : 10.0
+  }, {
+    "x" : 3760.0,
+    "y" : 290.0,
+    "width" : 40.0,
+    "height" : 10.0
+  }, {
+    "x" : 3880.0,
+    "y" : 330.0,
+    "width" : 10.0,
+    "height" : 40.0
+  }, {
+    "x" : 3880.0,
+    "y" : 440.0,
+    "width" : 10.0,
+    "height" : 40.0
+  }, {
+    "x" : 5920.0,
+    "y" : 90.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 6040.0,
+    "y" : 90.0,
+    "width" : 90.0,
+    "height" : 80.0
+  }, {
+    "x" : 6190.0,
+    "y" : 90.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 6310.0,
+    "y" : 90.0,
+    "width" : 90.0,
+    "height" : 80.0
+  }, {
+    "x" : 6460.0,
+    "y" : 90.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 5920.0,
+    "y" : 220.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 6040.0,
+    "y" : 220.0,
+    "width" : 90.0,
+    "height" : 80.0
+  }, {
+    "x" : 6190.0,
+    "y" : 220.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 6580.0,
+    "y" : 90.0,
+    "width" : 90.0,
+    "height" : 80.0
+  }, {
+    "x" : 6310.0,
+    "y" : 220.0,
+    "width" : 90.0,
+    "height" : 80.0
+  }, {
+    "x" : 6460.0,
+    "y" : 220.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 6580.0,
+    "y" : 220.0,
+    "width" : 90.0,
+    "height" : 80.0
+  }, {
+    "x" : 5920.0,
+    "y" : 600.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 5920.0,
+    "y" : 730.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 6040.0,
+    "y" : 600.0,
+    "width" : 90.0,
+    "height" : 80.0
+  }, {
+    "x" : 6040.0,
+    "y" : 730.0,
+    "width" : 90.0,
+    "height" : 80.0
+  }, {
+    "x" : 6190.0,
+    "y" : 600.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 6190.0,
+    "y" : 730.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 6310.0,
+    "y" : 600.0,
+    "width" : 90.0,
+    "height" : 80.0
+  }, {
+    "x" : 6310.0,
+    "y" : 730.0,
+    "width" : 90.0,
+    "height" : 80.0
+  }, {
+    "x" : 6460.0,
+    "y" : 600.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 6460.0,
+    "y" : 730.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 6580.0,
+    "y" : 600.0,
+    "width" : 90.0,
+    "height" : 80.0
+  }, {
+    "x" : 6580.0,
+    "y" : 730.0,
+    "width" : 90.0,
+    "height" : 80.0
+  }, {
+    "x" : 7330.0,
+    "y" : 90.0,
+    "width" : 25.0,
+    "height" : 25.0
+  }, {
+    "x" : 7280.0,
+    "y" : 190.0,
+    "width" : 25.0,
+    "height" : 25.0
+  }, {
+    "x" : 7230.0,
+    "y" : 90.0,
+    "width" : 25.0,
+    "height" : 25.0
+  }, {
+    "x" : 7330.0,
+    "y" : 190.0,
+    "width" : 25.0,
+    "height" : 25.0
+  }, {
+    "x" : 7330.0,
+    "y" : 140.0,
+    "width" : 25.0,
+    "height" : 25.0
+  }, {
+    "x" : 7370.0,
+    "y" : 70.0,
+    "width" : 30.0,
+    "height" : 160.0
+  }, {
+    "x" : 7550.0,
+    "y" : 70.0,
+    "width" : 30.0,
+    "height" : 160.0
+  }, {
+    "x" : 7190.0,
+    "y" : 660.0,
+    "width" : 30.0,
+    "height" : 170.0
+  }, {
+    "x" : 8270.0,
+    "y" : 70.0,
+    "width" : 420.0,
+    "height" : 220.0
+  }, {
+    "x" : 8270.0,
+    "y" : 620.0,
+    "width" : 420.0,
+    "height" : 210.0
+  }, {
+    "x" : 7910.0,
+    "y" : 670.0,
+    "width" : 250.0,
+    "height" : 20.0
+  }, {
+    "x" : 8140.0,
+    "y" : 690.0,
+    "width" : 20.0,
+    "height" : 90.0
+  }, {
+    "x" : 8000.0,
+    "y" : 760.0,
+    "width" : 140.0,
+    "height" : 20.0
+  }, {
+    "x" : 8010.0,
+    "y" : 200.0,
+    "width" : 260.0,
+    "height" : 20.0
+  }, {
+    "x" : 8010.0,
+    "y" : 110.0,
+    "width" : 20.0,
+    "height" : 90.0
+  }, {
+    "x" : 8030.0,
+    "y" : 110.0,
+    "width" : 160.0,
+    "height" : 20.0
+  }, {
+    "x" : 8900.0,
+    "y" : 240.0,
+    "width" : 120.0,
+    "height" : 130.0
+  }, {
+    "x" : 8900.0,
+    "y" : 90.0,
+    "width" : 120.0,
+    "height" : 130.0
+  }, {
+    "x" : 8760.0,
+    "y" : 240.0,
+    "width" : 120.0,
+    "height" : 130.0
+  }, {
+    "x" : 8760.0,
+    "y" : 620.0,
+    "width" : 120.0,
+    "height" : 130.0
+  }, {
+    "x" : 8900.0,
+    "y" : 620.0,
+    "width" : 120.0,
+    "height" : 130.0
+  }, {
+    "x" : 9890.0,
+    "y" : 220.0,
+    "width" : 470.0,
+    "height" : 430.0
+  }, {
+    "x" : 9810.0,
+    "y" : 250.0,
+    "width" : 80.0,
+    "height" : 20.0
+  }, {
+    "x" : 9920.0,
+    "y" : 140.0,
+    "width" : 20.0,
+    "height" : 80.0
+  }, {
+    "x" : 10310.0,
+    "y" : 140.0,
+    "width" : 20.0,
+    "height" : 80.0
+  }, {
+    "x" : 10360.0,
+    "y" : 250.0,
+    "width" : 80.0,
+    "height" : 20.0
+  }, {
+    "x" : 9810.0,
+    "y" : 600.0,
+    "width" : 80.0,
+    "height" : 20.0
+  }, {
+    "x" : 9920.0,
+    "y" : 650.0,
+    "width" : 20.0,
+    "height" : 80.0
+  }, {
+    "x" : 10310.0,
+    "y" : 650.0,
+    "width" : 20.0,
+    "height" : 80.0
+  }, {
+    "x" : 10360.0,
+    "y" : 600.0,
+    "width" : 80.0,
+    "height" : 20.0
+  }, {
+    "x" : 10170.0,
+    "y" : 70.0,
+    "width" : 40.0,
+    "height" : 40.0
+  }, {
+    "x" : 10070.0,
+    "y" : 180.0,
+    "width" : 50.0,
+    "height" : 40.0
+  }, {
+    "x" : 10030.0,
+    "y" : 70.0,
+    "width" : 40.0,
+    "height" : 60.0
+  }, {
+    "x" : 10200.0,
+    "y" : 110.0,
+    "width" : 110.0,
+    "height" : 60.0
+  }, {
+    "x" : 9960.0,
+    "y" : 170.0,
+    "width" : 40.0,
+    "height" : 30.0
+  }, {
+    "x" : 9200.0,
+    "y" : 300.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 9480.0,
+    "y" : 710.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 9620.0,
+    "y" : 230.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 9660.0,
+    "y" : 500.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 9200.0,
+    "y" : 630.0,
+    "width" : 100.0,
+    "height" : 80.0
+  }, {
+    "x" : 9380.0,
+    "y" : 70.0,
+    "width" : 100.0,
+    "height" : 40.0
+  } ],
+  "entrance" : {
+    "gate" : {
+      "x" : 460.0,
+      "y" : 70.0,
+      "width" : 28.0,
+      "height" : 760.0
+    },
+    "console" : {
+      "x" : 350.0,
+      "y" : 450.0
+    },
+    "triggers" : {
+      "opened" : "reactor-entrance-opened"
+    }
+  },
+  "checkpoints" : [ {
+    "id" : "reactor-checkpoint-1",
+    "platforms" : [ {
+      "x" : 2980.0,
+      "y" : 375.0
+    }, {
+      "x" : 3080.0,
+      "y" : 375.0
+    }, {
+      "x" : 2980.0,
+      "y" : 525.0
+    }, {
+      "x" : 3080.0,
+      "y" : 525.0
+    } ],
+    "exitGate" : {
+      "x" : 3172.0,
+      "y" : 70.0,
+      "width" : 28.0,
+      "height" : 760.0
+    },
+    "maximumSurvivors" : 4,
+    "triggers" : {
+      "cleared" : "reactor-checkpoint-1-cleared",
+      "failed" : "reactor-checkpoint-1-failed",
+      "activated" : "reactor-checkpoint-1-activated",
+      "platform-4" : "reactor-checkpoint-1-platform-4",
+      "platform-3" : "reactor-checkpoint-1-platform-3",
+      "platform-2" : "reactor-checkpoint-1-platform-2",
+      "platform-1" : "reactor-checkpoint-1-platform-1"
+    }
+  }, {
+    "id" : "reactor-checkpoint-2",
+    "platforms" : [ {
+      "x" : 6740.0,
+      "y" : 375.0
+    }, {
+      "x" : 6820.0,
+      "y" : 375.0
+    }, {
+      "x" : 6740.0,
+      "y" : 525.0
+    }, {
+      "x" : 6820.0,
+      "y" : 525.0
+    } ],
+    "exitGate" : {
+      "x" : 6872.0,
+      "y" : 70.0,
+      "width" : 28.0,
+      "height" : 760.0
+    },
+    "maximumSurvivors" : 4,
+    "triggers" : {
+      "cleared" : "reactor-checkpoint-2-cleared",
+      "failed" : "reactor-checkpoint-2-failed",
+      "activated" : "reactor-checkpoint-2-activated",
+      "platform-4" : "reactor-checkpoint-2-platform-4",
+      "platform-3" : "reactor-checkpoint-2-platform-3",
+      "platform-2" : "reactor-checkpoint-2-platform-2",
+      "platform-1" : "reactor-checkpoint-2-platform-1"
+    }
+  }, {
+    "id" : "reactor-checkpoint-3",
+    "platforms" : [ {
+      "x" : 10710.0,
+      "y" : 375.0
+    }, {
+      "x" : 10810.0,
+      "y" : 375.0
+    }, {
+      "x" : 10710.0,
+      "y" : 525.0
+    }, {
+      "x" : 10810.0,
+      "y" : 525.0
+    } ],
+    "exitGate" : {
+      "x" : 10870.0,
+      "y" : 70.0,
+      "width" : 28.0,
+      "height" : 760.0
+    },
+    "maximumSurvivors" : 4,
+    "triggers" : {
+      "cleared" : "reactor-checkpoint-3-cleared",
+      "failed" : "reactor-checkpoint-3-failed",
+      "activated" : "reactor-checkpoint-3-activated",
+      "platform-4" : "reactor-checkpoint-3-platform-4",
+      "platform-3" : "reactor-checkpoint-3-platform-3",
+      "platform-2" : "reactor-checkpoint-3-platform-2",
+      "platform-1" : "reactor-checkpoint-3-platform-1"
+    }
+  } ],
+  "weaponPickups" : [ {
+    "id" : "reactor-rifle-1",
+    "x" : 220.0,
+    "y" : 280.0,
+    "ammo" : 5
+  }, {
+    "id" : "reactor-rifle-2",
+    "x" : 220.0,
+    "y" : 620.0,
+    "ammo" : 5
+  } ],
+  "lootCrates" : [ {
+    "x" : 350.0,
+    "y" : 180.0
+  }, {
+    "x" : 350.0,
+    "y" : 720.0
+  }, {
+    "x" : 1420.0,
+    "y" : 710.0
+  }, {
+    "x" : 2000.0,
+    "y" : 100.0
+  }, {
+    "x" : 2100.0,
+    "y" : 300.0
+  }, {
+    "x" : 2840.0,
+    "y" : 650.0
+  }, {
+    "x" : 3360.0,
+    "y" : 670.0
+  }, {
+    "x" : 3360.0,
+    "y" : 630.0
+  }, {
+    "x" : 4990.0,
+    "y" : 720.0
+  }, {
+    "x" : 5780.0,
+    "y" : 780.0
+  }, {
+    "x" : 5820.0,
+    "y" : 740.0
+  }, {
+    "x" : 5820.0,
+    "y" : 780.0
+  }, {
+    "x" : 6770.0,
+    "y" : 630.0
+  }, {
+    "x" : 7250.0,
+    "y" : 200.0
+  }, {
+    "x" : 8090.0,
+    "y" : 720.0
+  }, {
+    "x" : 7990.0,
+    "y" : 720.0
+  }, {
+    "x" : 9050.0,
+    "y" : 110.0
+  }, {
+    "x" : 1420.0,
+    "y" : 800.0
+  }, {
+    "x" : 1230.0,
+    "y" : 800.0
+  }, {
+    "x" : 1890.0,
+    "y" : 300.0
+  }, {
+    "x" : 1890.0,
+    "y" : 100.0
+  }, {
+    "x" : 2380.0,
+    "y" : 330.0
+  }, {
+    "x" : 2340.0,
+    "y" : 330.0
+  }, {
+    "x" : 2380.0,
+    "y" : 810.0
+  }, {
+    "x" : 2000.0,
+    "y" : 300.0
+  }, {
+    "x" : 3440.0,
+    "y" : 790.0
+  }, {
+    "x" : 3530.0,
+    "y" : 750.0
+  }, {
+    "x" : 3620.0,
+    "y" : 680.0
+  }, {
+    "x" : 3630.0,
+    "y" : 810.0
+  }, {
+    "x" : 4650.0,
+    "y" : 110.0
+  }, {
+    "x" : 4990.0,
+    "y" : 680.0
+  }, {
+    "x" : 4990.0,
+    "y" : 800.0
+  }, {
+    "x" : 4610.0,
+    "y" : 150.0
+  }, {
+    "x" : 4810.0,
+    "y" : 150.0
+  }, {
+    "x" : 7290.0,
+    "y" : 100.0
+  }, {
+    "x" : 7290.0,
+    "y" : 150.0
+  }, {
+    "x" : 8040.0,
+    "y" : 730.0
+  }, {
+    "x" : 8060.0,
+    "y" : 160.0
+  }, {
+    "x" : 8170.0,
+    "y" : 170.0
+  }, {
+    "x" : 10100.0,
+    "y" : 150.0
+  }, {
+    "x" : 10030.0,
+    "y" : 190.0
+  }, {
+    "x" : 9980.0,
+    "y" : 150.0
+  }, {
+    "x" : 10000.0,
+    "y" : 100.0
+  }, {
+    "x" : 10170.0,
+    "y" : 190.0
+  }, {
+    "x" : 10120.0,
+    "y" : 100.0
+  }, {
+    "x" : 10250.0,
+    "y" : 200.0
+  }, {
+    "x" : 9230.0,
+    "y" : 770.0
+  }, {
+    "x" : 9320.0,
+    "y" : 800.0
+  }, {
+    "x" : 9350.0,
+    "y" : 740.0
+  }, {
+    "x" : 1230.0,
+    "y" : 740.0
+  } ],
+  "intelTerminals" : [ {
+    "id" : "reactor-intel-1-1",
+    "x" : 2100.0,
+    "y" : 100.0,
+    "checkpoint" : 1,
+    "checkpointId" : "reactor-checkpoint-1"
+  }, {
+    "id" : "reactor-intel-1-2",
+    "x" : 2480.0,
+    "y" : 110.0,
+    "checkpoint" : 1,
+    "checkpointId" : "reactor-checkpoint-1"
+  }, {
+    "id" : "reactor-intel-2-1",
+    "x" : 4810.0,
+    "y" : 110.0,
+    "checkpoint" : 2,
+    "checkpointId" : "reactor-checkpoint-2"
+  }, {
+    "id" : "reactor-intel-2-2",
+    "x" : 4990.0,
+    "y" : 760.0,
+    "checkpoint" : 2,
+    "checkpointId" : "reactor-checkpoint-2"
+  }, {
+    "id" : "reactor-intel-3-1",
+    "x" : 7250.0,
+    "y" : 150.0,
+    "checkpoint" : 3,
+    "checkpointId" : "reactor-checkpoint-3"
+  } ],
+  "mobs" : [ {
+    "id" : "reactor-s1-1",
+    "x" : 880.0,
+    "y" : 470.0,
+    "type" : "MELEE",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 880.0,
+        "y" : 460.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s1-2",
+    "x" : 1100.0,
+    "y" : 500.0,
+    "type" : "MELEE",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 1100.0,
+        "y" : 500.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s1-3",
+    "x" : 1130.0,
+    "y" : 430.0,
+    "type" : "RANGED",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 1170.0,
+        "y" : 210.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 15
+  }, {
+    "id" : "reactor-s1-4",
+    "x" : 1380.0,
+    "y" : 760.0,
+    "type" : "ASSAULT",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 1250.0,
+        "y" : 440.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 60
+  }, {
+    "id" : "reactor-s1-6",
+    "x" : 2270.0,
+    "y" : 750.0,
+    "type" : "MELEE",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 2050.0,
+        "y" : 720.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s1-7",
+    "x" : 2260.0,
+    "y" : 700.0,
+    "type" : "RANGED",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 2220.0,
+        "y" : 520.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 15
+  }, {
+    "id" : "reactor-s1-8",
+    "x" : 2370.0,
+    "y" : 730.0,
+    "type" : "RANGED",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 2120.0,
+        "y" : 420.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 15
+  }, {
+    "id" : "reactor-s1-9",
+    "x" : 3100.0,
+    "y" : 630.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "trigger-spawn-1-part",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 2950.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "trigger-spawn-1-part"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s1-10",
+    "x" : 3070.0,
+    "y" : 760.0,
+    "type" : "RANGED",
+    "level" : 1,
+    "spawnTrigger" : "trigger-spawn-1-part",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 3080.0,
+        "y" : 430.0
+      } ],
+      "startTrigger" : "trigger-spawn-1-part"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s1-11",
+    "x" : 3060.0,
+    "y" : 680.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "trigger-spawn-1-part",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 2940.0,
+        "y" : 520.0
+      } ],
+      "startTrigger" : "trigger-spawn-1-part"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s1-12",
+    "x" : 3010.0,
+    "y" : 770.0,
+    "type" : "RANGED",
+    "level" : 1,
+    "spawnTrigger" : "trigger-spawn-1-part",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 3120.0,
+        "y" : 480.0
+      } ],
+      "startTrigger" : "trigger-spawn-1-part"
+    },
+    "health" : 60,
+    "ammo" : 15
+  }, {
+    "id" : "reactor-s2-1",
+    "x" : 3710.0,
+    "y" : 760.0,
+    "type" : "MELEE",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 3680.0,
+        "y" : 270.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s2-2",
+    "x" : 5560.0,
+    "y" : 480.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 3760.0,
+        "y" : 660.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s2-3",
+    "x" : 3710.0,
+    "y" : 800.0,
+    "type" : "MELEE",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 4090.0,
+        "y" : 440.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s2-4",
+    "x" : 5740.0,
+    "y" : 600.0,
+    "type" : "RANGED",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 4190.0,
+        "y" : 240.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 15
+  }, {
+    "id" : "reactor-s2-5",
+    "x" : 5700.0,
+    "y" : 530.0,
+    "type" : "RANGED",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 4160.0,
+        "y" : 650.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 60
+  }, {
+    "id" : "reactor-s2-6",
+    "x" : 5620.0,
+    "y" : 520.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 5390.0,
+        "y" : 260.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s2-7",
+    "x" : 5560.0,
+    "y" : 360.0,
+    "type" : "GRENADIER",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 5590.0,
+        "y" : 150.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 15
+  }, {
+    "id" : "reactor-s2-8",
+    "x" : 5560.0,
+    "y" : 570.0,
+    "type" : "MELEE",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 5190.0,
+        "y" : 700.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s2-9",
+    "x" : 5680.0,
+    "y" : 470.0,
+    "type" : "RANGED",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 5370.0,
+        "y" : 475.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 60
+  }, {
+    "id" : "reactor-s2-10",
+    "x" : 5640.0,
+    "y" : 590.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 5650.0,
+        "y" : 650.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s2-11",
+    "x" : 5640.0,
+    "y" : 410.0,
+    "type" : "RANGED",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 5570.0,
+        "y" : 430.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 15
+  }, {
+    "id" : "reactor-s2-12",
+    "x" : 6160.0,
+    "y" : 190.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 6160.0,
+        "y" : 330.0
+      } ],
+      "startTrigger" : "cooperation-1-opened"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s2-13",
+    "x" : 6160.0,
+    "y" : 670.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 6160.0,
+        "y" : 540.0
+      } ],
+      "startTrigger" : "cooperation-1-opened"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s2-14",
+    "x" : 6780.0,
+    "y" : 330.0,
+    "type" : "GRENADIER",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 6390.0,
+        "y" : 460.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 15
+  }, {
+    "id" : "reactor-s2-16",
+    "x" : 6780.0,
+    "y" : 570.0,
+    "type" : "GRENADIER",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 6520.0,
+        "y" : 700.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 5
+  }, {
+    "id" : "reactor-s3-1",
+    "x" : 7290.0,
+    "y" : 470.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 7230.0,
+        "y" : 460.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s3-2",
+    "x" : 7310.0,
+    "y" : 380.0,
+    "type" : "MELEE",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 7410.0,
+        "y" : 490.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s3-3",
+    "x" : 7270.0,
+    "y" : 330.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 7640.0,
+        "y" : 410.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s3-4",
+    "x" : 7480.0,
+    "y" : 490.0,
+    "type" : "RANGED",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 7600.0,
+        "y" : 740.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 15
+  }, {
+    "id" : "reactor-s3-5",
+    "x" : 7480.0,
+    "y" : 350.0,
+    "type" : "ASSAULT",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 7570.0,
+        "y" : 260.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 60
+  }, {
+    "id" : "reactor-s3-6",
+    "x" : 8120.0,
+    "y" : 620.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 8010.0,
+        "y" : 580.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s3-7",
+    "x" : 8170.0,
+    "y" : 550.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 8020.0,
+        "y" : 510.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "reactor-s3-8",
+    "x" : 8240.0,
+    "y" : 440.0,
+    "type" : "RANGED",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 8120.0,
+        "y" : 440.0
+      } ],
+      "startTrigger" : "gallery-bridge-plate-pressed"
+    },
+    "health" : 60,
+    "ammo" : 15
+  }, {
+    "id" : "reactor-s3-9",
+    "x" : 8170.0,
+    "y" : 260.0,
+    "type" : "ASSAULT",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 8070.0,
+        "y" : 320.0
+      } ],
+      "startTrigger" : "gallery-bridge-plate-pressed"
+    },
+    "health" : 60,
+    "ammo" : 60
+  }, {
+    "id" : "reactor-s3-10",
+    "x" : 9060.0,
+    "y" : 790.0,
+    "type" : "RANGED",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 8640.0,
+        "y" : 160.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 15
+  }, {
+    "id" : "crawler-1",
+    "x" : 2300.0,
+    "y" : 660.0,
+    "type" : "MELEE",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 2440.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "crawler-2",
+    "x" : 2330.0,
+    "y" : 770.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 2440.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "crawler-3",
+    "x" : 2370.0,
+    "y" : 670.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 2440.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "crawler-4",
+    "x" : 1600.0,
+    "y" : 810.0,
+    "type" : "ASSAULT",
+    "level" : 1,
+    "spawnTrigger" : "trigger-spawn-1-part",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 2150.0,
+        "y" : 800.0
+      } ],
+      "startTrigger" : "trigger-spawn-1-part"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "crawler-5",
+    "x" : 1650.0,
+    "y" : 810.0,
+    "type" : "ASSAULT",
+    "level" : 1,
+    "spawnTrigger" : "trigger-spawn-1-part",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 2190.0,
+        "y" : 800.0
+      } ],
+      "startTrigger" : "trigger-spawn-1-part"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "crawler-6",
+    "x" : 1700.0,
+    "y" : 810.0,
+    "type" : "ASSAULT",
+    "level" : 1,
+    "spawnTrigger" : "trigger-spawn-1-part",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 2230.0,
+        "y" : 800.0
+      } ],
+      "startTrigger" : "trigger-spawn-1-part"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "grenadier-1",
+    "x" : 3130.0,
+    "y" : 800.0,
+    "type" : "GRENADIER",
+    "level" : 1,
+    "spawnTrigger" : "trigger-spawn-1-part",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 3130.0,
+        "y" : 550.0
+      } ],
+      "startTrigger" : "trigger-spawn-1-part"
+    },
+    "health" : 60,
+    "ammo" : 5
+  }, {
+    "id" : "rifleman-1",
+    "x" : 3010.0,
+    "y" : 110.0,
+    "type" : "ASSAULT",
+    "level" : 1,
+    "spawnTrigger" : "trigger-spawn-1-part",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 2960.0,
+        "y" : 280.0
+      } ],
+      "startTrigger" : "trigger-spawn-1-part"
+    },
+    "health" : 60,
+    "ammo" : 60
+  }, {
+    "id" : "rifleman-2",
+    "x" : 3070.0,
+    "y" : 110.0,
+    "type" : "ASSAULT",
+    "level" : 1,
+    "spawnTrigger" : "trigger-spawn-1-part",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 3020.0,
+        "y" : 300.0
+      } ],
+      "startTrigger" : "trigger-spawn-1-part"
+    },
+    "health" : 60,
+    "ammo" : 60
+  }, {
+    "id" : "crawler-7",
+    "x" : 3030.0,
+    "y" : 160.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "trigger-spawn-1-part",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 2910.0,
+        "y" : 390.0
+      } ],
+      "startTrigger" : "trigger-spawn-1-part"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "rifleman-3",
+    "x" : 3120.0,
+    "y" : 730.0,
+    "type" : "ASSAULT",
+    "level" : 2,
+    "spawnTrigger" : "trigger-spawn-1-part",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 3050.0,
+        "y" : 480.0
+      } ],
+      "startTrigger" : "trigger-spawn-1-part"
+    },
+    "health" : 60,
+    "ammo" : 60
+  }, {
+    "id" : "boss-assault-1",
+    "x" : 6780.0,
+    "y" : 450.0,
+    "type" : "BOSS_ASSAULT",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 6320.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 500,
+    "ammo" : 150
+  }, {
+    "id" : "crawler-8",
+    "x" : 6160.0,
+    "y" : 240.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 6160.0,
+        "y" : 370.0
+      } ],
+      "startTrigger" : "cooperation-1-opened"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "crawler-9",
+    "x" : 6160.0,
+    "y" : 720.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 6160.0,
+        "y" : 580.0
+      } ],
+      "startTrigger" : "cooperation-1-opened"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "gunner-1",
+    "x" : 6160.0,
+    "y" : 120.0,
+    "type" : "RANGED",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 6500.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 15
+  }, {
+    "id" : "gunner-2",
+    "x" : 6160.0,
+    "y" : 790.0,
+    "type" : "RANGED",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 6500.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 15
+  }, {
+    "id" : "gunner-3",
+    "x" : 6430.0,
+    "y" : 650.0,
+    "type" : "ASSAULT",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 6430.0,
+        "y" : 550.0
+      } ],
+      "startTrigger" : "cooperation-1-opened"
+    },
+    "health" : 60,
+    "ammo" : 15
+  }, {
+    "id" : "gunner-4",
+    "x" : 6430.0,
+    "y" : 260.0,
+    "type" : "ASSAULT",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 6430.0,
+        "y" : 350.0
+      } ],
+      "startTrigger" : "cooperation-1-opened"
+    },
+    "health" : 60,
+    "ammo" : 15
+  }, {
+    "id" : "grenadier-2",
+    "x" : 6780.0,
+    "y" : 380.0,
+    "type" : "GRENADIER",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 6990.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 5
+  }, {
+    "id" : "grenadier-3",
+    "x" : 6780.0,
+    "y" : 510.0,
+    "type" : "GRENADIER",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 6990.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 5
+  }, {
+    "id" : "crawler-10",
+    "x" : 8830.0,
+    "y" : 790.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 9230.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "crawler-11",
+    "x" : 8910.0,
+    "y" : 790.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 9230.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "crawler-12",
+    "x" : 8960.0,
+    "y" : 800.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 9230.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "rifleman-4",
+    "x" : 9490.0,
+    "y" : 530.0,
+    "type" : "ASSAULT",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 9860.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 60
+  }, {
+    "id" : "rifleman-7",
+    "x" : 9670.0,
+    "y" : 410.0,
+    "type" : "ASSAULT",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 9860.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 60
+  }, {
+    "id" : "rifleman-8",
+    "x" : 9420.0,
+    "y" : 490.0,
+    "type" : "ASSAULT",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 9860.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 60
+  }, {
+    "id" : "rifleman-9",
+    "x" : 9660.0,
+    "y" : 130.0,
+    "type" : "ASSAULT",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 10200.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 60
+  }, {
+    "id" : "rifleman-10",
+    "x" : 9750.0,
+    "y" : 170.0,
+    "type" : "ASSAULT",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 10200.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 60
+  }, {
+    "id" : "rifleman-11",
+    "x" : 9840.0,
+    "y" : 120.0,
+    "type" : "ASSAULT",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 10200.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 60
+  }, {
+    "id" : "rifleman-12",
+    "x" : 9480.0,
+    "y" : 410.0,
+    "type" : "ASSAULT",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 9840.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 60
+  }, {
+    "id" : "rifleman-13",
+    "x" : 9620.0,
+    "y" : 490.0,
+    "type" : "ASSAULT",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 9840.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 60
+  }, {
+    "id" : "rifleman-14",
+    "x" : 9580.0,
+    "y" : 350.0,
+    "type" : "ASSAULT",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 9840.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 60,
+    "ammo" : 60
+  }, {
+    "id" : "boss-assault-2",
+    "x" : 9580.0,
+    "y" : 430.0,
+    "type" : "BOSS_ASSAULT",
+    "level" : 1,
+    "spawnTrigger" : "world-created",
+    "route" : {
+      "enabled" : false,
+      "points" : [ {
+        "x" : 10590.0,
+        "y" : 450.0
+      } ],
+      "startTrigger" : "world-created"
+    },
+    "health" : 500,
+    "ammo" : 120
+  }, {
+    "id" : "boss-assault-3",
+    "x" : 10520.0,
+    "y" : 200.0,
+    "type" : "BOSS_ASSAULT",
+    "level" : 2,
+    "spawnTrigger" : "final",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 10510.0,
+        "y" : 540.0
+      } ],
+      "startTrigger" : "final"
+    },
+    "health" : 500,
+    "ammo" : 120
+  }, {
+    "id" : "boss-assault-4",
+    "x" : 10600.0,
+    "y" : 200.0,
+    "type" : "BOSS_GRENADIER",
+    "level" : 2,
+    "spawnTrigger" : "final",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 10580.0,
+        "y" : 540.0
+      } ],
+      "startTrigger" : "final"
+    },
+    "health" : 500,
+    "ammo" : 120
+  }, {
+    "id" : "boss-assault-5",
+    "x" : 10680.0,
+    "y" : 200.0,
+    "type" : "BOSS_ASSAULT",
+    "level" : 2,
+    "spawnTrigger" : "final",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 10650.0,
+        "y" : 540.0
+      } ],
+      "startTrigger" : "final"
+    },
+    "health" : 500,
+    "ammo" : 120
+  }, {
+    "id" : "crawler-13",
+    "x" : 10660.0,
+    "y" : 270.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "final",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 10580.0,
+        "y" : 650.0
+      } ],
+      "startTrigger" : "final"
+    },
+    "health" : 60,
+    "ammo" : 0
+  }, {
+    "id" : "crawler-14",
+    "x" : 10540.0,
+    "y" : 270.0,
+    "type" : "MELEE",
+    "level" : 2,
+    "spawnTrigger" : "final",
+    "route" : {
+      "enabled" : true,
+      "points" : [ {
+        "x" : 10510.0,
+        "y" : 650.0
+      } ],
+      "startTrigger" : "final"
+    },
+    "health" : 60,
+    "ammo" : 0
+  } ],
+  "cooperationGates" : [ {
+    "id" : "warehouse-shortcut",
+    "gate" : {
+      "x" : 1780.0,
+      "y" : 70.0,
+      "width" : 28.0,
+      "height" : 250.0
+    },
+    "plates" : [ {
+      "x" : 1620.0,
+      "y" : 150.0
+    }, {
+      "x" : 1620.0,
+      "y" : 255.0
+    } ],
+    "requiredPlayers" : 2,
+    "adaptiveToTeamSize" : true,
+    "triggers" : {
+      "plate-2" : "warehouse-shortcut-plate-2",
+      "plate-1" : "warehouse-shortcut-plate-1",
+      "opened" : "warehouse-shortcut-opened"
+    }
+  }, {
+    "id" : "cooperation-1",
+    "gate" : {
+      "x" : 5860.0,
+      "y" : 360.0,
+      "width" : 30.0,
+      "height" : 220.0
+    },
+    "plates" : [ {
+      "x" : 5790.0,
+      "y" : 410.0
+    }, {
+      "x" : 5790.0,
+      "y" : 530.0
+    } ],
+    "requiredPlayers" : 2,
+    "adaptiveToTeamSize" : false,
+    "triggers" : {
+      "plate-2" : "cooperation-1-plate-2",
+      "plate-1" : "cooperation-1-plate-1",
+      "opened" : "cooperation-1-opened"
+    }
+  } ],
+  "trustPockets" : [ {
+    "id" : "trust-pocket-1",
+    "plate" : {
+      "x" : 4920.0,
+      "y" : 270.0
+    },
+    "gate" : {
+      "x" : 4670.0,
+      "y" : 250.0,
+      "width" : 170.0,
+      "height" : 30.0
+    },
+    "pocket" : {
+      "x" : 4570.0,
+      "y" : 70.0,
+      "width" : 270.0,
+      "height" : 180.0
+    },
+    "triggers" : {
+      "plate-pressed" : "trust-pocket-1-plate-pressed",
+      "plate-released" : "trust-pocket-1-plate-released"
+    }
+  }, {
+    "id" : "coolant-fire-pocket",
+    "plate" : {
+      "x" : 4600.0,
+      "y" : 610.0
+    },
+    "gate" : {
+      "x" : 4752.0,
+      "y" : 600.0,
+      "width" : 148.0,
+      "height" : 28.0
+    },
+    "pocket" : {
+      "x" : 4692.0,
+      "y" : 628.0,
+      "width" : 328.0,
+      "height" : 202.0
+    },
+    "triggers" : {
+      "plate-pressed" : "coolant-fire-pocket-plate-pressed",
+      "plate-released" : "coolant-fire-pocket-plate-released"
+    }
+  } ],
+  "serviceBridges" : [ {
+    "id" : "gallery-bridge",
+    "plate" : {
+      "x" : 7670.0,
+      "y" : 260.0
+    },
+    "hazard" : {
+      "x" : 7730.0,
+      "y" : 290.0,
+      "width" : 180.0,
+      "height" : 330.0
+    },
+    "overrideConsole" : {
+      "x" : 7950.0,
+      "y" : 250.0
+    },
+    "triggers" : {
+      "plate-pressed" : "gallery-bridge-plate-pressed",
+      "override-pressed" : "gallery-bridge-override-pressed"
+    }
+  }, {
+    "id" : "service-bridge-1",
+    "plate" : {
+      "x" : 8210.0,
+      "y" : 260.0
+    },
+    "hazard" : {
+      "x" : 8270.0,
+      "y" : 290.0,
+      "width" : 420.0,
+      "height" : 330.0
+    },
+    "overrideConsole" : {
+      "x" : 8730.0,
+      "y" : 270.0
+    },
+    "triggers" : {
+      "plate-pressed" : "service-bridge-1-plate-pressed",
+      "override-pressed" : "service-bridge-1-override-pressed"
+    }
+  } ],
+  "separationGates" : [ {
+    "id" : "gallery-divider",
+    "gate" : {
+      "x" : 9140.0,
+      "y" : 70.0,
+      "width" : 20.0,
+      "height" : 120.0
+    },
+    "controls" : [ {
+      "x" : 8710.0,
+      "y" : 810.0
+    }, {
+      "x" : 9190.0,
+      "y" : 90.0
+    } ],
+    "triggers" : {
+      "control-2" : "gallery-divider-control-2",
+      "control-1" : "gallery-divider-control-1"
+    }
+  } ],
+  "finalRelays" : [ {
+    "id" : "final-relay-1",
+    "gate" : {
+      "x" : 3420.0,
+      "y" : 590.0,
+      "width" : 140.0,
+      "height" : 30.0
+    },
+    "nodes" : [ {
+      "x" : 3670.0,
+      "y" : 330.0
+    }, {
+      "x" : 3780.0,
+      "y" : 330.0
+    } ],
+    "triggers" : {
+      "node-2" : "final-relay-1-node-2",
+      "node-1" : "final-relay-1-node-1",
+      "opened" : "final-relay-1-opened"
+    }
+  }, {
+    "id" : "final-relay-2",
+    "gate" : {
+      "x" : 3590.0,
+      "y" : 590.0,
+      "width" : 150.0,
+      "height" : 30.0
+    },
+    "nodes" : [ {
+      "x" : 3850.0,
+      "y" : 350.0
+    }, {
+      "x" : 3850.0,
+      "y" : 460.0
+    } ],
+    "triggers" : {
+      "node-2" : "final-relay-2-node-2",
+      "node-1" : "final-relay-2-node-1",
+      "opened" : "final-relay-2-opened"
+    }
+  } ],
+  "triggerAreas" : [ {
+    "id" : "id-trigger-spawn-1-part",
+    "area" : {
+      "x" : 2540.0,
+      "y" : 410.0,
+      "width" : 50.0,
+      "height" : 110.0
+    },
+    "trigger" : "trigger-spawn-1-part"
+  }, {
+    "id" : "final",
+    "area" : {
+      "x" : 10080.0,
+      "y" : 650.0,
+      "width" : 70.0,
+      "height" : 180.0
+    },
+    "trigger" : "final"
+  } ],
+  "healthBoostPickups" : [ {
+    "x" : 5780.0,
+    "y" : 740.0
+  }, {
+    "x" : 2340.0,
+    "y" : 810.0
+  }, {
+    "x" : 4950.0,
+    "y" : 800.0
+  }, {
+    "x" : 4610.0,
+    "y" : 110.0
+  }, {
+    "x" : 8110.0,
+    "y" : 170.0
+  }, {
+    "x" : 9410.0,
+    "y" : 780.0
+  }, {
+    "x" : 9940.0,
+    "y" : 100.0
+  } ]
+}

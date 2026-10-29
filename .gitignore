@@ -1,0 +1,11 @@
+.godot/
+tools/godot/
+tools/godot-linux/
+tools/*.zip
+artifacts/*
+!artifacts/.gitkeep
+build/
+*.log
+*.tmp
+
+server_maps/

@@ -1,0 +1,12 @@
+.godot-integration {
+    margin: 12px 0;
+    padding: 14px 16px;
+    border: 1px solid #2a3530;
+    background: #111716;
+    color: #b4dd80;
+    font-size: 13px;
+}
+.godot-integration .hint { margin: 8px 0; }
+.godot-integration .actions { margin-top: 8px; align-items: end; }
+.godot-integration label { margin: 0; }
+.godot-integration input { min-height: 40px; }

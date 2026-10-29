@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Отсечка — редактор карт</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/integration.css">
+</head>
+<body>
+<main class="shell">
+    <header class="brand">
+        <span class="brand-mark">//</span>
+        <div><h1>ОТСЕЧКА</h1><p>Редактор уровней</p></div>
+        <span id="connection-status" class="connection">Локальный редактор</span>
+    </header>
+    <section id="menu-screen" class="panel hidden" data-screen>
+        <p class="eyebrow">Конструктор туннелей</p><h2>Редактор уровней</h2>
+        <div class="actions"><button id="open-level-editor" class="primary">Открыть список карт</button></div>
+        <p class="hint">Для игры вернитесь в окно «Отсечка». Пока окно открыто, редактор доступен в этой вкладке.</p>
+    </section>
+    <section id="editor-menu-screen" class="panel hidden" data-screen>
+        <p class="eyebrow">Конструктор туннелей</p>
+        <h2>Редактор уровней</h2>
+        <label for="editor-map-select">Существующая карта</label>
+        <select id="editor-map-select"></select>
+        <div class="actions">
+            <button id="editor-open-map" class="primary">Открыть</button>
+            <button id="editor-copy-map" class="secondary">Создать копию</button>
+            <button id="editor-new-map" class="secondary">Создать из шаблона</button>
+            <button id="editor-empty-map" class="secondary">Создать пустую карту</button>
+            <button id="editor-restore-draft" class="secondary">Восстановить черновик</button>
+            <button id="editor-menu-back" class="secondary">Назад</button>
+        </div>
+        <p class="hint">Шаблон содержит все механики. Пустая карта содержит только обязательный игровой минимум. Копия сохраняется отдельно от исходной карты.</p>
+        <p id="editor-menu-message" class="editor-message hidden" role="status"></p>
+    </section>
+
+    <section id="editor-screen" class="editor-screen hidden" data-screen>
+        <div class="editor-header">
+            <div>
+                <p class="eyebrow">Формат .map · прямой туннель</p>
+                <h2>Редактор карты</h2>
+            </div>
+            <div class="editor-header-actions">
+                <button id="editor-back" class="secondary">К списку карт</button>
+                <button id="editor-undo" class="secondary" disabled>Отменить · Ctrl+Z</button>
+                <button id="editor-save" class="primary">Сохранить карту</button>
+                <button id="editor-export" class="secondary">Скачать .map</button>
+            </div>
+        </div>
+
+        <p id="editor-status" class="editor-message" role="status" aria-live="polite">Карта загружена.</p>
+        <div class="editor-map-settings">
+            <label>ID карты
+                <input id="editor-map-id" maxlength="40" placeholder="my-map">
+            </label>
+            <label>Название
+                <input id="editor-map-name" maxlength="80" placeholder="Новый туннель">
+            </label>
+            <label>Длина туннеля
+                <input id="editor-world-width" type="number" min="960" max="20000" step="10">
+            </label>
+            <label>Высота туннеля
+                <input id="editor-world-height" type="number" min="540" max="2000" step="10">
+            </label>
+            <label>Масштаб
+                <input id="editor-zoom" type="range" min="15" max="100" step="5" value="45">
+            </label>
+            <label class="editor-check-label">
+                <input id="editor-grid-snap" type="checkbox" checked>
+                Привязка к сетке 10
+            </label>
+        </div>
+
+        <div class="editor-layout">
+            <aside class="editor-sidebar editor-palette">
+                <h3>Добавить объект</h3>
+                <select id="editor-add-type">
+                    <optgroup label="Геометрия">
+                        <option value="obstacle">Препятствие / стенка</option>
+                        <option value="label">Подпись зоны</option>
+                        <option value="trigger-area">Область-триггер</option>
+                    </optgroup>
+                    <optgroup label="Связанные механизмы">
+                        <option value="cooperation-2">Парный шлюз + 2 плиты</option>
+                        <option value="cooperation-3">Тройной шлюз + 3 плиты</option>
+                        <option value="cooperation-4">Четверной шлюз + 4 плиты</option>
+                        <option value="trust-pocket">Карман доверия + пожар + плита</option>
+                        <option value="service-bridge">Аварийный мост + плита + пульт</option>
+                        <option value="separation-gate">Разделяющий заслон + 2 кнопки</option>
+                        <option value="final-relay">Релейный шлюз + 2 узла</option>
+                        <option value="checkpoint">Отсечка + 4 платформы</option>
+                    </optgroup>
+                    <optgroup label="Предметы и данные">
+                        <option value="weapon">Огнестрел</option>
+                        <option value="health-boost">Усилитель максимального HP +50</option>
+                        <option value="loot">Лут-ящик</option>
+                        <option value="intel">Данные отсечки</option>
+                    </optgroup>
+                    <optgroup label="Противники">
+                        <option value="mob-melee">Моб ближнего боя</option>
+                        <option value="mob-ranged">Моб с болтовой винтовкой</option>
+                        <option value="mob-assault">Моб с автоматом</option>
+                        <option value="mob-grenadier">Моб с гранатомётом</option>
+                        <option value="boss-assault">Босс-автоматчик (квадрат)</option>
+                        <option value="boss-grenadier">Босс-гранатомётчик (круг)</option>
+                    </optgroup>
+                </select>
+                <button id="editor-add" class="primary editor-wide-button">Добавить</button>
+
+                <h3>Обозначения</h3>
+                <ul class="editor-legend">
+                    <li><span class="legend-swatch obstacle"></span> Стены и препятствия</li>
+                    <li><span class="legend-swatch gate"></span> Ворота и заслоны</li>
+                    <li><span class="legend-swatch hazard"></span> Опасные поля</li>
+                    <li><span class="legend-swatch interaction"></span> Пульты и плиты</li>
+                    <li><span class="legend-swatch checkpoint"></span> Отсечки</li>
+                    <li><span class="legend-swatch item"></span> Лут и данные</li>
+                    <li><span class="legend-swatch enemy"></span> Противники</li>
+                    <li><span class="legend-swatch trigger"></span> Триггерные области и маршруты</li>
+                </ul>
+                <p class="hint">Связанные кнопки создаются вместе с механизмом, но перемещаются независимо. Белый квадрат меняет размер стен, ворот, заслонов и полей.</p>
+            </aside>
+
+            <div id="editor-viewport" class="editor-viewport">
+                <canvas id="editor-canvas" width="6500" height="540" aria-label="Редактор уровня"></canvas>
+            </div>
+
+            <aside class="editor-sidebar editor-inspector">
+                <h3>Выбранный объект</h3>
+                <select id="editor-object-select"></select>
+                <div id="editor-properties" class="editor-properties">
+                    <p class="hint">Выберите объект на карте.</p>
+                </div>
+                <button id="editor-delete" class="danger editor-wide-button" disabled>Удалить объект</button>
+            </aside>
+        </div>
+    </section>
+
+</main>
+<script src="/integration.js"></script>
+<script src="/editor.js"></script>
+</body>
+</html>

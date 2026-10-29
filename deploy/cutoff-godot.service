@@ -1,0 +1,20 @@
+[Unit]
+Description=Cutoff Godot dedicated server
+After=network.target
+
+[Service]
+Type=simple
+User=cutoffgame
+Group=cutoffgame
+WorkingDirectory=/opt/cutoff-godot
+ExecStart=/opt/cutoff-godot/godot --headless --main-pack /opt/cutoff-godot/cutoff.pck -- --server --port=9080
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=15
+NoNewPrivileges=true
+PrivateTmp=true
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
